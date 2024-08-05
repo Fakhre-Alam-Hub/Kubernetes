@@ -2,7 +2,7 @@
 
 1. Create private key
 
-`openssl genrsa -out dave.key 4096`
+`openssl genrsa -out dave.pem 4096`
 
 Dave needs to make sure he:
 
