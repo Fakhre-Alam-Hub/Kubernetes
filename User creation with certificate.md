@@ -14,6 +14,8 @@ Uses the group name in the Organisation (O) field: this will be used to identify
 
 `openssl req -new -key dave.pem -out dave.csr -subj "/CN=dave"`
 
+NOTE: Use "//CN=dave" in windows git terminal
+
 3. Obtain the base64-encoded representation of the CSR:
 
 `cat dave.csr | base64 | tr -d "\n"`
